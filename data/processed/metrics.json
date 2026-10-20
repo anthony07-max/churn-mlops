@@ -1,0 +1,23 @@
+{
+  "cv_auc": {
+    "logreg": 0.8458471827115295,
+    "gbm": 0.8441050925524607
+  },
+  "chosen_model": "logreg",
+  "test_auc": 0.8420031517218217,
+  "test_pr_auc": 0.6349027662797512,
+  "test_brier": 0.13804774423024394,
+  "churn_rate": 0.2653698707936959,
+  "n_customers": 7043,
+  "threshold": 0.28,
+  "campaign_profit_at_threshold": 38892.75,
+  "recall_at_threshold": 0.7807486631016043,
+  "contact_share_at_threshold": 0.40028388928317954,
+  "churn_by_contract": {
+    "Month-to-month": 0.427,
+    "One year": 0.113,
+    "Two year": 0.028
+  },
+  "churn_first_year": 0.47438243366880145,
+  "churn_after_4y": 0.09513175524787852
+}
